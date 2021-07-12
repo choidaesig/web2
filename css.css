@@ -1,0 +1,113 @@
+*{margin:0; padding: 0;}
+a{text-decoration: none; color:inherit;}
+header{
+  
+    width:1000px;
+    margin:0 auto;
+    margin-top:150px;
+}
+header h3{
+    float: left;
+    font-weight: 900;
+}
+p{
+    color:#aaa0a0;
+    float:right;
+}
+span{
+    color:#46baba;
+}
+header::after{
+    content: "";
+    clear:both;
+    display: block;
+}
+section{
+    width:1000px;
+    margin: 0 auto;
+}
+.box1{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 150px;
+    border-left: none;
+    border-right: none;
+}
+.box1 h2, h4{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.box2{
+    padding:10px;
+    text-align: center;
+    width:500px;
+    height: 80px;
+    float:right;
+    border:2px solid #d0cccc;
+    border-collapse: collapse;
+    border-right:none;
+    border-left:none;
+}
+.box2 td,th{
+        border:1px solid #c9c3c3;
+}
+.box2 .row1{ border-left:none;}
+.box2 .row2{border-right:none;}
+.box2  th{
+    background-color: #f5f1f1;
+    border:1px solid #c9c3c3;
+}
+.mtable{
+    margin: 50px auto;
+    border-collapse: collapse;
+    width:1000px;
+    text-align: center;
+}
+.mtable td{
+    padding:30px;
+        border: 1px solid #e5e5e5;
+    font-weight: 900;
+    color:#ccc;
+    font-size:20px
+}
+
+.mtable a:hover{
+    color:aqua;
+}
+
+.btable{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border:1px solid #e5e5e5;
+    border-right: none;
+    border-left:none;
+}
+.btable td,th{
+     padding : 20px 0;
+    border:1px solid #e5e5e5;
+    font-weight: 700;
+    border-right: none;
+    border-left:none;
+    margin-bottom: 150px;
+}
+.btable{
+border-top: 2px solid #a3a3a3;
+}
+button{
+    color:#fff;
+    background:#86d9dd;
+    padding:10px;
+    border:none;
+}
+
+
+
+
+
+
+
+
